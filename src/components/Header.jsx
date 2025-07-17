@@ -31,7 +31,7 @@ export default function Header(props) {
                     <a href="https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view" target='_blank'>Программа обучения</a>
                     <Link to='/education'>Обучение</Link>
                     <a href="https://trend-people.ru">О компании</a>
-                    <a href="">Телеграм канал</a>
+                    <a href="https://t.me/trend_career">Телеграм канал</a>
                     <a href="">Контакты</a>
                     {/* <span onClick={scrollToFaq}>FAQ</span> */}
                 </div>
