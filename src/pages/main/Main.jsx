@@ -120,7 +120,7 @@ function Main() {
                   <p>Более 100 партнеров, квалифицированный юридический департамент, ипотека онлайн и готовые предложения для инвесторов. </p>
                   <button onClick={scrollToForm}>
                     <div className="brick">
-                        <span>ОСТАВИТЬ ЗАЯВКУ</span>
+                        <span>СТАТЬ АГЕНТОМ</span>
                     </div>
                     <div className="circle">
                     <img
@@ -177,7 +177,7 @@ function Main() {
                   <h2>Меняем судьбы!</h2>
                   <h3>Послушайте реальные истории наших агентов</h3>
                   <iframe width="100%" height="310px" style={{borderRadius: "16px"}} src="https://www.youtube.com/embed/1ITRSI1O1UY?si=nnH_VrJHyISIB_Z2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                  <button onClick={scrollToForm}>👇 Оставить заявку</button>
+                  <button onClick={scrollToForm}>СТАТЬ АГЕНТОМ</button>
                 </div>
                 <div className="right">
                   <h2>Наш HR отдел<br/>ждет именно Тебя!</h2>
@@ -198,7 +198,7 @@ function Main() {
       🚀 <span>Не разбираешься в этом?</span> Не проблема! Мы обучаем новичков с нуля бесплатно в нашем учебном центре. Уже в первые недели ты получишь все необходимые знания и начнешь зарабатывать! </p>
                   <button onClick={scrollToForm}>
                       <div className="brick">
-                          <span>ОСТАВИТЬ ЗАЯВКУ</span>
+                          <span>СТАТЬ АГЕНТОМ</span>
                       </div>
                       <div className="circle">
                       <img
