@@ -17,7 +17,7 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            height: 95%;
+            height: 85%;
         }
         & > img.mobileAlice {
             display: none;
@@ -42,6 +42,7 @@
             font-size: 48px;
             color: #ffffff;
             font-weight: 900;
+            z-index: 10;
         }
         & > p {
             font-size: 24px;
@@ -49,6 +50,7 @@
             font-weight: 400;
             max-width: 580px;
             margin: 0;
+            z-index: 10;
         }
         & > button {
             display: flex;
@@ -385,6 +387,7 @@
         flex-direction: column;
         gap: 24px;
         padding: 32px;
+        align-items: center;
         & > h2 {
             font-size: 52px;
             font-weight: 700;
@@ -399,45 +402,21 @@
         }
         & > button {
             display: flex;
+            width: max-content;
             justify-content: center;
             align-items: center;
             color: #051923;
-            font-size: 24px;
+            font-size: 20px;
             background-color: #EFF0F2;
-            border-radius: 24px;
+            border-radius: 16px;
             border: none;
             outline: none;
             font-weight: 700;
-            padding: 16px 0px;
+            padding: 16px 32px;
             cursor: pointer;
             transition: all 0.2s;
             &:hover {
                 background-color: #e0e0e0;
-            }
-        }
-    }
-    & > .right {
-        flex: 1;
-        background-color: #8AD8C8;
-        border-radius: 24px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 32px;
-        gap: 24px;
-        & > h2 {
-            color: #ffffff;
-            font-size: 52px;
-            font-weight: 700;
-            text-align: center;
-        }
-        & > .circles {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            justify-content: center;
-            & > img {
-                width: 30%;
             }
         }
     }
@@ -654,6 +633,7 @@
             font-size: 15px;
             font-weight: 400;
             margin-left: 16px;
+            z-index: 10;
         }
         & > input {
             height: 45px;
@@ -663,12 +643,14 @@
             padding: 0px 30px;
             box-sizing: border-box;
             width: 390px;
+            z-index: 10;
             &:focus {
                 outline: none;
             }
         }
         & > button {
             background-color: #FF8135;
+            z-index: 10;
             display: flex;
             justify-content: center;
             align-items: center;
