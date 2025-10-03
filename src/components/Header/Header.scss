@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    & > .wrapper {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & > .Header__links {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            & > .Header__links_link {
+                font-size: 14px;
+                color: #909090;
+                font-weight: 500;
+            }
+            & > .Header__links_phone {
+                background-color: black;
+                padding: 4px 16px;
+                color: white;
+                font-size: 14px;
+                font-weight: 500;
+                border-radius: 24px;
+            }
+        }
+    }
+}

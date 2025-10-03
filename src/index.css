@@ -1,27 +1,28 @@
-@font-face {
-  font-family: 'Golos Text';
-  src: url('./fonts/Golos-Text_Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
-@font-face {
-  font-family: 'Golos Text';
-  src: url('./fonts/Golos-Text_Medium.ttf') format('truetype');
-  font-weight: 500; /* Medium */
-  font-style: normal;
+a {
+    text-decoration: none;
 }
 
-@font-face {
-  font-family: 'Golos Text';
-  src: url('./fonts/Golos-Text_Bold.ttf') format('truetype');
-  font-weight: 700; /* Bold */
-  font-style: normal;
+img {
+    user-select: none;
 }
 
-@font-face {
-  font-family: 'Golos Text';
-  src: url('./fonts/Golos-Text_Black.ttf') format('truetype');
-  font-weight: 900; /* Black */
-  font-style: normal;
+.wrapper {
+    width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+        padding: 0px 24;
+    }
 }

@@ -1,0 +1,82 @@
+.Faq {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    & > .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        & > img {
+            width: 50%;
+            margin-bottom: 40px;
+        }
+
+        .accordion {
+            width: 100%;
+
+            .accordion-item {
+                cursor: pointer;
+                background: #fff;
+                border-bottom: 1px solid #ccc;
+                transition: all 0.3s ease;
+
+                &.first {
+                    border-top: 1px solid #ccc;
+                }
+
+                .accordion-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 70px;
+                    padding: 0 16px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #000;
+
+                    .icon_block {
+                        width: 45px;
+                        height: 45px;
+                        background-color: #EBEDF1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        & > .icon {
+                            display: inline-block;
+                            transition: transform 0.3s ease;
+                            font-size: 32px;
+                            line-height: 1;
+                        }
+                    }
+                }
+
+                .accordion-content {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 0.3s ease;
+                    padding: 0 16px;
+
+                    p {
+                        font-size: 16px;
+                        color: #333;
+                        margin: 16px 0;
+                    }
+                }
+
+                &.open {
+                    .icon {
+                        transform: rotate(-45deg);
+                    }
+                    .accordion-content {
+                        max-height: 200px; // фиксированная анимация
+                    }
+                }
+            }
+        }
+    }
+}
