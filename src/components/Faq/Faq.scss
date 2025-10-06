@@ -80,3 +80,42 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .Faq {
+        & > .wrapper {
+            padding: 0px 24px;
+            & > img {
+                width: 75%;
+            }
+            & > .accordion .accordion-item .accordion-header {
+                padding: 16px 0px;
+                gap: 8px;
+                & > .icon_block {
+                    flex-shrink: 0;
+                    flex-grow: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Faq {
+        & > .wrapper {
+            & > .accordion .accordion-item .accordion-header {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Faq {
+        & > .wrapper {
+            & > img {
+                width: 100%;
+            }
+        }
+    }
+}

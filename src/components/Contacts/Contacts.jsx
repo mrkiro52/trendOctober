@@ -66,7 +66,7 @@ export default function Contacts() {
     };
 
     return (
-        <div className="Contacts">
+        <div className="Contacts" id="Contacts">
             {/* Фоновые круги */}
             <div className="circles">
                 <div className="circle"></div>

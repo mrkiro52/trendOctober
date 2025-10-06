@@ -7,7 +7,7 @@
     & > .wrapper {
         display: flex;
         flex-direction: column;
-        gap: 36px;
+        gap: 48px;
         & > img {
             width: 100%;
         }
@@ -23,9 +23,8 @@
                 gap: 16px;
                 & > .block {
                     display: flex;
-                    background-color: #92d7c779;
                     gap: 16px;
-                    padding: 16px;
+                    padding: 16px 16px 16px 0px;
                     & > span {
                         font-size: 16px;
                         color: black;
@@ -34,31 +33,66 @@
                         width: calc(100% - 32px);
                     }
                 }
+                & > button {
+                    font-family: "Dela Gothic One";
+                    width: 330px;
+                    height: 65px;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    border: none;
+                    outline: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    background-color: black;
+                    color: white;
+                    transition: all 0.3s;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #F5622C;
+                    }
+                }
             }
             & > .right {
                 width: 45%;
                 display: flex;
                 flex-direction: column;
                 gap: 12px;
-                & > span.title {
-                    font-size: 24px;
-                    color: black;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                }   
-                & > p {
-                    font-size: 16px;
-                    color: white;
-                    font-weight: 700;
-                    background-color: #F5622C;
-                    padding: 16px;
-                }
                 & > span.gendir {
                     font-size: 14px;
                     font-style: italic;
                     font-weight: 400;
                     color: black;
                     text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Utps {
+        & > .wrapper {
+            padding: 0px 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Utps {
+        & > .wrapper {
+            & > .content {
+                flex-direction: column-reverse;
+                gap: 24px;
+                & > .left {
+                    width: 100%;
+                    & > .block {
+                        padding: 8px 0px;
+                    }
+                }
+                & > .right {
+                    width: 100%;
                 }
             }
         }
