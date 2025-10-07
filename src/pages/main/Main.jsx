@@ -5,6 +5,7 @@ import About from '../../components/About/About';
 import Utps from '../../components/Utps/Utps';
 import Faq from '../../components/Faq/Faq';
 import Contacts from '../../components/Contacts/Contacts';
+import Cases from '../../components/Cases/Cases';
 
 export default function Main() {
     return (
@@ -13,6 +14,7 @@ export default function Main() {
             <Startscreen/>
             <About/>
             <Utps/>
+            <Cases/>
             <Faq/>
             <Contacts/>
         </div>
