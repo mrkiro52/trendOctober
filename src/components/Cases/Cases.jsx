@@ -15,7 +15,7 @@ export default function Cases() {
                             className="image" 
                             style={{ backgroundImage: `url(${agent1})` }}
                         ></div>
-                        <span>Юрий Гусейнов</span>
+                        <span>Юра 26 лет</span>
                         <p>За 8 месяцев работы агентом купил собственную квартиру — мечты становятся реальностью!</p>
                     </div>
                     <div className="block">
@@ -23,7 +23,7 @@ export default function Cases() {
                             className="image" 
                             style={{ backgroundImage: `url(${agent2})` }}
                         ></div>
-                        <span>Артур Низамутдинов</span>
+                        <span>Артур 30 лет</span>
                         <p>Раньше продавал когтеточки, сегодня его годовая валовая выручка превышает 7 миллионов рублей.</p>
                     </div>
                     <div className="block">
@@ -31,8 +31,8 @@ export default function Cases() {
                             className="image" 
                             style={{ backgroundImage: `url(${agent3})` }}
                         ></div>
-                        <span>Нина Дугина</span>
-                        <p>22 года: достигла миллиона рублей валовой выручки в месяц.</p>
+                        <span>Нина 23 года</span>
+                        <p>Достигла миллиона рублей валовой выручки в месяц.</p>
                     </div>
                 </div>
             </div>

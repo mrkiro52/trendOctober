@@ -1,6 +1,6 @@
 import './Utps.scss';
 import utpTitle from './images/uptsTitle.svg';
-import gendir from './images/gendir.jpg';
+import gendir from './images/gendir.png';
 
 export default function Utps() {
     return (
@@ -33,7 +33,8 @@ export default function Utps() {
                     </div>
                     <div className="right">
                         <img src={gendir} alt="gendir" />
-                        <span className='gendir'>Генеральный директор Тренд Недвижимость - Александр Рыков</span>
+                        <span className='quote'>"С нами ты точно будешь в Тренде!"</span>
+                        <span className='gendir'>(Генеральный директор Тренд Недвижимость - Александр Рыков)</span>
                     </div>
                 </div>
             </div>

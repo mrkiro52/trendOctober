@@ -58,13 +58,21 @@
                 width: 45%;
                 display: flex;
                 flex-direction: column;
-                gap: 12px;
+                & > img {
+                    margin-bottom: 16px;
+                }
                 & > span.gendir {
                     font-size: 14px;
                     font-style: italic;
                     font-weight: 400;
                     color: black;
-                    text-align: center;
+                    text-align: left;
+                }
+                & > span.quote {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: black;
+                    text-align: left;
                 }
             }
         }
