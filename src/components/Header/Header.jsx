@@ -47,7 +47,7 @@ export default function Header() {
                         <a onClick={() => setMenuOpen(false)} href='https://dreamjob.ru/employers/48906' target="_blank">Отзывы</a>
                         <a onClick={() => setMenuOpen(false)} href='#Contacts'>Контакты</a>
                         <a onClick={() => setMenuOpen(false)} href='https://t.me/trend_career' target="_blank">Telegram</a>
-                        <a onClick={() => setMenuOpen(false)} href='#' target="_blank" className="phone">+7 (921) 765-02-33</a>
+                        <a onClick={() => setMenuOpen(false)} href='tel:+79311072118' target="_blank" className="phone">+7 (931) 107-21-18</a>
                     </nav>
                 </div>
             )}
