@@ -67,7 +67,7 @@
                 width: 80%;
             }
 
-            & > button {
+            & > a {
                 font-family: "Dela Gothic One";
                 width: 330px;
                 height: 65px;
@@ -119,26 +119,19 @@
     .Startscreen {
         & > .wrapper {
             align-items: flex-start;
-            & > .content {
-                gap: 24px;
-                & > button {
-                    font-size: 12px;
-                    height: 45px;
-                    padding: 0px 24px;
-                }
+            flex-direction: column;
+            gap: 24px;
+            & > img {
+                width: 100%;
             }
-        }
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .Startscreen {
-        & > .wrapper {
-            align-items: flex-start;
             & > .content {
+                width: 100%;
                 gap: 24px;
-                & > button {
-                    font-size: 10px;
+                & > img {
+                    width: 100%;
+                }
+                & > a {
+                    width: 100%;
                 }
             }
         }

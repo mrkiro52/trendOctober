@@ -16,7 +16,7 @@ export default function Startscreen() {
                 <img src={mainImg} alt="trend" />
                 <div className="content">
                     <img src={titleText} alt="title" />
-                    <button>НАШИ ВАКАНСИИ</button>
+                    <a href='https://spb.hh.ru/employer/4258986' target='_blank'>НАШИ ВАКАНСИИ</a>
                 </div>
             </div>
         </div>
