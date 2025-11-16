@@ -1,0 +1,137 @@
+.education {
+    font-family: Arial, sans-serif;
+    color: #000;
+
+    &__hero {
+        background: #ff6622;
+        text-align: center;
+        padding: 230px 20px 130px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 36px;
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    &__info {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    &__btn {
+        background: #ffffff;
+        color: #000000;
+        font-weight: 700;
+        padding: 12px 28px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+        width: max-content;
+    }
+
+    &__content {
+        display: flex;
+        gap: 36px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 130px 20px;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__block {
+        width: 45%;
+    }
+
+    &__heading {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+
+            a {
+                color: black;
+                text-decoration: underline;
+                font-size: 16px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .education {
+        &__content {
+            width: 100%;
+            flex-direction: column;
+            padding: 36px 24px 80px 24px;
+        }
+        &__block {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .education {
+        &__title {
+            font-size: 24px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .education {
+        &__title {
+            font-size: 20px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+}
