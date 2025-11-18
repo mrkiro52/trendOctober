@@ -13,7 +13,7 @@ export default function Education() {
                 <p className="education__subtitle">
                     "Основы агентской деятельности в сфере недвижимости"
                 </p>
-                <button className="education__btn">Скачать программу</button>
+                <a className="education__btn" target='_blank' href='https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view?pli=1'>Скачать программу</a>
             </section>
 
             <section className="education__content">
