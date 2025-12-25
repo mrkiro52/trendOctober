@@ -16,7 +16,7 @@ export default function ProfEducation() {
                 <p className="education__info">
                     40 ак. часа, Онлайн-формат
                 </p>
-                <a href="https://drive.google.com/file/d/1hu_Ew8RvEw4tPfOuRog2fW8Ta8aDwVsx/view?usp=drive_link" target="_blank" className="education__btn">Скачать программу</a>
+                <a href="https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view?pli=1" target="_blank" className="education__btn">Скачать программу</a>
             </section>
 
             <section className="education__content">
@@ -29,7 +29,7 @@ export default function ProfEducation() {
                 <div className="education__block">
                     <h2 className="education__heading">Размещение иных документов</h2>
                     <ul className="education__list">
-                        <li><a href="https://drive.google.com/file/d/1hu_Ew8RvEw4tPfOuRog2fW8Ta8aDwVsx/view?usp=drive_link" target='_blank'>Программа обучения</a></li>
+                        <li><a href="https://drive.google.com/file/d/1BIKENCLHK4orUxomEyfmc67nycoR-yTG/view" target='_blank'>Программа обучения</a></li>
                         <li><a href="https://drive.google.com/file/d/13jiu06RdYTFKmV_LDoNHwm_cc-YHIEp3/view?usp=drive_link" target='_blank'>Порядок оказания учебно-методической помощи обучающимся</a></li>
                         <li><a href="https://drive.google.com/file/d/1YbQpCUXGpbGzWQ41axQNqcmRTd0dXUhq/view?usp=drive_link" target='_blank'>Положение об использовании электронного обучения</a></li>
                         <li><a href="https://drive.google.com/file/d/17aB7--8EGcZNrLeSV9JRYZUu1pHFth1i/view?usp=drive_link" target='_blank'>Положение о порядке определения соотношения объема занятий</a></li>

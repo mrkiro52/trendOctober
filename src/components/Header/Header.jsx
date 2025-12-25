@@ -16,8 +16,8 @@ export default function Header() {
 
                 {/* Десктопные ссылки */}
                 <div className="Header__links">
-                    <a href="https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view?pli=1" target='_blank' className="Header__links_link">ДОО</a>
-                    <a href="https://drive.google.com/file/d/1hu_Ew8RvEw4tPfOuRog2fW8Ta8aDwVsx/view" target='_blank' className="Header__links_link">ДПО</a>
+                    <a href="https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view?pli=1" target='_blank' className="Header__links_link">Программа ДОО</a>
+                    <a href="https://drive.google.com/file/d/1BIKENCLHK4orUxomEyfmc67nycoR-yTG/view" target='_blank' className="Header__links_link">Программа ДПО</a>
                     <div 
                         className="Header__dropdown"
                         onMouseEnter={() => setEducationDropdown(true)}
@@ -62,8 +62,8 @@ export default function Header() {
                         <Link to="/">
                             <img src={logo} alt="logo" />
                         </Link>
-                        <a href="https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view?pli=1" target='_blank' className="Header__links_link">ДОО</a>
-                        <a href="https://drive.google.com/file/d/1hu_Ew8RvEw4tPfOuRog2fW8Ta8aDwVsx/view" target='_blank' className="Header__links_link">ДПО</a>
+                        <a href="https://drive.google.com/file/d/1aaVsDwKo6YBW04UfuJ3tln_Ifq5shQeD/view?pli=1" target='_blank' className="Header__links_link">Программа ДОО</a>
+                        <a href="https://drive.google.com/file/d/1BIKENCLHK4orUxomEyfmc67nycoR-yTG/view" target='_blank' className="Header__links_link">Программа ДПО</a>
                         <Link onClick={() => setMenuOpen(false)} to="/education">Программа ДОО</Link>
                         <Link onClick={() => setMenuOpen(false)} to="/prof-education">Программа ДПО</Link>
                         <a onClick={() => setMenuOpen(false)} href='https://spb.hh.ru/employer/4258986?hhtmFrom=vacancy' target="_blank">Вакансии</a>

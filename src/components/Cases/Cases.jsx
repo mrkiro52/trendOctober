@@ -1,8 +1,8 @@
 import './Cases.scss';
 import titleImg from './images/title.svg';
 import agent1 from './images/man1.png';
-import agent2 from './images/man2.jpg';
-import agent3 from './images/woman.jpg';
+import agent2 from './images/man2.png';
+import agent3 from './images/woman.png';
 
 export default function Cases() {
     return (

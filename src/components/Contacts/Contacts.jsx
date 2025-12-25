@@ -45,7 +45,7 @@ export default function Contacts() {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    chat_id: "8159138602",
+                    chat_id: "-1003171167529",
                     text: message,
                     parse_mode: "HTML",
                 }),
